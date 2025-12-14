@@ -1,0 +1,15 @@
+[package]
+name = "saorsa-vdf-guest"
+version = "0.1.0"
+edition = "2021"
+authors = ["David Irvine <david@saorsalabs.com>"]
+description = "SP1 zkVM Guest Program for Saorsa VDF"
+license = "MIT"
+publish = true
+
+[dependencies]
+sp1-zkvm = "4.0"
+blake3 = { version = "1.5", default-features = false }
+serde = { version = "1.0", features = ["derive"] }
+
+[workspace]
