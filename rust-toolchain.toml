@@ -1,2 +1,4 @@
 [toolchain]
-channel = "nightly-2024-04-01"
+channel = "nightly-2024-09-01"
+components = [ "rust-src", "rust-std" ]
+targets = [ "riscv32im-succinct-zkvm-elf" ]
